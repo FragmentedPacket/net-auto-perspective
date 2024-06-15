@@ -1,0 +1,46 @@
+site_name: A Perspective of Network Automation
+site_url: ""
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - navigation.footer
+  font:
+    text: "Quicksand"
+  icon:
+    logo: material/puzzle-outline
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to Dark Mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      toggle:
+        icon: material/lightbulb
+        name: Switch to Light Mode
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+plugins:
+  - search
+#   - awesome-pages
+nav:
+  - Introduction: "index.md"
+  - Network Automation Strategies:
+    - Strategies Overview: "strategies/overview.md"
+    - Centralized Platform: "strategies/platform_centralized.md"
+    - Decentralized Platform: "strategies/platform_decentralized.md"
+    - Hybrid Platform: "strategies/platform_hybrid.md"
+  - Network Automation Platform:
+      - Platform Overview: "platform/overview.md"
