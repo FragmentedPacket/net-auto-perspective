@@ -14,4 +14,4 @@ A strategy is how your organization is structured which will dictate your strate
 | --------- | -------------------- | ---------------------- | --------------- |
 | Allow users of the platform to focus on business value | :white_check_mark: | :x: | :warning: |
 | Allows individual teams to have more control over the platform | :x: | :white_check_mark: | :warning: |
-| Minimizes scope of managed platform components but not completely | :x: | :x: | :white_check_mark: |
+| Allows individual teams to choose which components they manage vs consume | :warning: | :x: | :white_check_mark: |
