@@ -1,5 +1,7 @@
 # Strategy: Centralized
 
+## Overview
+
 This strategy is typically geared towards larger organizations that may already have a tool or platform team. It is important to work with their leadership with what your high level objectives are and see if they can accommodate new use-cases and potentially new tooling.
 
 The centralized strategy will allow your network engineers to focus on consuming the platform rather than building and managing your own platform. Increasing the efficiency with current network engineers with minimal upskilling is most ideal and allows the network engineers to continue to primarily focus on networking while changing their method of how they interact with the network.

@@ -1,5 +1,7 @@
 # Strategy: Decentralized
 
+## Overview
+
 This strategy can be common in small to medium sized enterprises, but could also thrive in large corporations that operate heavily in silos.
 
 A common reason why this strategy is chosen is to be able to increase agility in each team and allow them to manage their own platform rather than getting stuck in bureaucracy that the **centralized** strategy typically manifests. This strategy can foster innovation and if the information is dispersed, can benefit many other organizations organically.
