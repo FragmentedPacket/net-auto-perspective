@@ -1,5 +1,6 @@
 site_name: A Perspective of Network Automation
 site_url: "https://fragmentedpacket.github.io/net-auto-perspective/"
+repo_url: "https://github.com/FragmentedPacket/net-auto-perspective"
 theme:
   name: material
   features:
