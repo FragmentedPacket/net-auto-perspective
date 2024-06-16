@@ -1,17 +1,16 @@
-# Network Automation Strategies
+# Strategy: Decentralized
 
-A strategy is how your organization is structured which will dictate your strategy or may require an organizational update to adhere to the selected strategy.
+This strategy can be common in small to medium sized enterprises, but could also thrive in large corporations that operate heavily in silos.
 
-- **Centralized Platform**: This will typically have a larger team or organization that will maintain the tools and components within the Network Automation Platform. Your customers in turn are engineers who utilize the platform to accomplish business objects by building automation and self service automation. This allows the platform organization to understand the needs of customers and the lifecycle of the platform such as bug fixes or new feature requests of the platform.
-- **Decentralized Platform**: Each team will have their own automation platform and these may or may not look similar, but each team is responsible for managing their automation platform, but have full control.
-- **Hybrid Platform**: This will be a mixture of **both** of the above strategies, but the mixture will look different in each organization.
+A common reason why this strategy is chosen is to be able to increase agility in each team and allow them to manage their own platform rather than getting stuck in bureaucracy that the **centralized** strategy typically manifests. This strategy can foster innovation and if the information is dispersed, can benefit many other organizations organically.
 
-![Automation Strategies](strategies.png)
+![Automation Strategies](strategies-decentralized.png)
 
-## Strategy Comparison
+## Pros and Cons
 
-| Objective | Centralized Platform | Decentralized Platform | Hybrid Platform |
-| --------- | -------------------- | ---------------------- | --------------- |
-| Allow users of the platform to focus on business value | :white_check_mark: | :warning: | :x: |
-| Allows individual teams to have more control over the platform | :x: | :white_check_mark: | :warning: |
-| Minimizes scope of managed platform components but not completely | :x: | :x: | :white_check_mark: |
+| Pro/Con | Description |
+| ----------------------- | ----------- |
+| :white_check_mark: | Allows each team full control of the tools in their platform |
+| :x: | Typically requires teams to split into an infrastructure vs engineer and has less engineers delivering business value |
+| :white_check_mark: | Avoids bureaucracy at the cost of maintenance of the platform |
+| :x: | Potentially displaces priority and evolves into "Robbing Peter to pay Paul" situation |

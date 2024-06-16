@@ -1,17 +1,20 @@
-# Network Automation Strategies
+# Strategy: Centralized
 
-A strategy is how your organization is structured which will dictate your strategy or may require an organizational update to adhere to the selected strategy.
+This strategy is typically geared towards larger organizations that may already have a tool or platform team. It is important to work with their leadership with what your high level objectives are and see if they can accommodate new use-cases and potentially new tooling.
 
-- **Centralized Platform**: This will typically have a larger team or organization that will maintain the tools and components within the Network Automation Platform. Your customers in turn are engineers who utilize the platform to accomplish business objects by building automation and self service automation. This allows the platform organization to understand the needs of customers and the lifecycle of the platform such as bug fixes or new feature requests of the platform.
-- **Decentralized Platform**: Each team will have their own automation platform and these may or may not look similar, but each team is responsible for managing their automation platform, but have full control.
-- **Hybrid Platform**: This will be a mixture of **both** of the above strategies, but the mixture will look different in each organization.
+The centralized strategy will allow your network engineers to focus on consuming the platform rather than building and managing your own platform. Increasing the efficiency with current network engineers with minimal upskilling is most ideal and allows the network engineers to continue to primarily focus on networking while changing their method of how they interact with the network.
 
-![Automation Strategies](strategies.png)
+It may be worth it to create your own platform team to manage the organizations' network automation platform and may require organizational changes to accommodate this new strategy.
 
-## Strategy Comparison
+![Automation Strategies](strategies-centralized.png)
 
-| Objective | Centralized Platform | Decentralized Platform | Hybrid Platform |
-| --------- | -------------------- | ---------------------- | --------------- |
-| Allow users of the platform to focus on business value | :white_check_mark: | :warning: | :x: |
-| Allows individual teams to have more control over the platform | :x: | :white_check_mark: | :warning: |
-| Minimizes scope of managed platform components but not completely | :x: | :x: | :white_check_mark: |
+## Pros and Cons
+
+| Pro/Con | Description |
+| ----------------------- | ----------- |
+| :white_check_mark: | Allows minimal upskilling for network engineers |
+| :x: | External dependencies can impede delivery of automation |
+| :white_check_mark: | Utilize existing platform capabilities and not reinvent the wheel |
+| :white_check_mark: | Remain focused on organizations' core strengths |
+| :x: | Increased complexity due to accounting for a large number of use-cases |
+| :x: | Blast radius increases as the more organizations and users are on-boarded into the platform |
